@@ -1,0 +1,354 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+
+
+.heading {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 40px;
+    line-height: 2;
+}
+
+/* Intro  DONE */
+#intro {
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #fff;
+}
+
+.intro-container {
+    width: 625px;
+    margin: 0 auto; 
+    padding: 100px 0;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.download-btn {
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    height: 50px;
+    width: 225px;
+    margin: 0 5px;
+}
+
+.dl-btn1 {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.dl-btn2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+/* About */
+.about-header {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto 100px;
+}
+
+.about-column-img img{
+    position: absolute;
+    left: -60px;
+}
+
+.about-column-text {
+    padding-left: 100px;
+}
+
+.about-row {
+    width: 390px;
+    margin-top: 50px;
+}
+
+.about-row h3{
+    margin-bottom: 0;
+}
+
+
+
+/* Devices  */
+.devices-container {
+    text-align: center;
+    padding-top: 100px; 
+}
+
+.devices-container .header {
+    width: 670px;
+    margin: 0 auto;
+}
+
+.devices-container img {
+    margin-top: 50px; 
+}
+
+/* Workflow */
+.workflow-container {
+    padding: 100px 5%;
+    text-align: center;
+}
+
+.workflow-column {
+    padding: 50px 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 30px;
+}
+
+.logos {
+    width: 15%;
+    margin: 0 20px;
+}
+
+/* Download  */
+.download-container {
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+
+/* Footer  */
+.footer-container {
+    background-color: rgb(245,246,248);
+}
+
+.footer-column-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.footer-column-img img{
+    width: 60px;
+    height: 60px;
+}
+
+.footer-column-icon {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    padding: 0 10px;
+}
+
+.footer-column-links {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    width: 520px;
+}
+
+a {
+    color: hsl(210, 10%, 33%);
+    display: inline-block;
+    width: 160px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+a:hover {
+    color: hsl(171, 66%, 44%);
+    text-decoration: none;
+}
+
+@media(max-width: 1199px) {
+    /* About */
+    .about-container {
+        text-align: center;
+    }
+
+    .about-header {
+        margin: 0 auto 50px;
+    }
+
+    .about-column-img {
+        padding: 0;
+    }
+
+    .about-column-img img{
+        position: relative;
+        left: 0;
+        padding: 0;
+    }
+
+    .about-column-text {
+        padding: 0;
+    }
+
+    .about-row {
+        margin: 50px auto 0;
+    }
+}
+
+@media(max-width: 991px) {
+    /* About */
+    .about-header {
+        width: 700px;
+        margin: 0 auto 100px;
+    }
+
+    /* Devices  */
+    .devices-container {
+        padding: 100px 10% 0; 
+    }
+
+    .devices-container .header {
+        padding: 0 5%;
+        width: 100%;
+    }
+
+    .devices-container img {
+        width: 100%;
+    }
+
+    /* Workflow */
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logos {
+        width: 30%;
+        margin: 25px 0;
+    }
+
+    .workflow-container {
+        padding-bottom: 50px;
+    }
+    
+    .workflow-column {
+        padding: 25px 20px;
+    }
+    
+
+
+    /* Download OK NA */
+    .download-container {
+        width: 100%;
+        margin: 0;
+        padding: 100px 10%;
+    }
+
+    /* Footer  */
+    .footer-column-icon {
+        justify-content: center;
+        height: 100px;
+    }
+    
+    .social-icon {
+        padding: 0 20px;
+    }
+    
+    .links {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    a {
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 767px) {
+    /* Intro  */
+    .intro-container {
+        width: 100%;
+        padding: 100px 10%;
+        margin: 0;
+    }
+
+    /* About */
+    .about-container {
+        padding: 0 10%;
+    }
+
+    .about-column-img {
+        padding: 0 15px;
+    }
+
+    .about-column-img img{
+        width: 100%;
+    }
+
+    .about-column-text {
+        padding: 0 15px;
+    }
+
+    .about-header {
+        width: 100%;
+    }
+
+
+    /* Devices  */
+    .devices-container .header {
+        padding: 0;
+    }
+
+    /* Workflow */
+    .workflow-column {
+        padding: 50px 15px;
+    }
+
+    .logos {
+        width: 40%;
+    }
+
+}
+
+@media(max-width: 594px){
+
+    .download-btn {
+        margin: 15px 0;
+    }
+}
+
+@media(max-width: 479px){
+    /* Intro */
+    .download-btn {
+        width: 100%;
+    }
+
+    /* About  */
+    .about-row {
+        width: 100%;
+    }
+
+    /* Workflow  */
+    .logos {
+        width: 50%;
+    }
+}
+
+@media(max-width: 375px) {
+    #intro {
+        background-image: url("../images/bg-header-mobile.png");
+    }
+}
